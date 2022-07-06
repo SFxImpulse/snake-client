@@ -28,6 +28,12 @@ const handleUserInput = function(key) {
   if (key === "d") {
     conn.write("Move: right");
   }
+  if (key === "e") {
+    conn.write("Say: gorp");
+  }
+  if (key === 'r') {
+    conn.write("Say: shlorp");
+  }
 };
 
 module.exports = { setupInput };
